@@ -2,9 +2,11 @@
 import {combineReducers} from 'redux'
 import {counters} from './counters'
 import {routerReducer} from 'react-router-redux'
+import { reducer as formReducer } from 'redux-form'
 
 export default combineReducers({
     counters,
-    routing: routerReducer
+    routing: routerReducer,
+    form: formReducer
 })
 
