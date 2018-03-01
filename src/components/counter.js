@@ -1,4 +1,5 @@
 import React from 'react';
+import Popover2 from './test'
 
 export const Counter = (props) => (
     <div>
@@ -26,5 +27,6 @@ export const Counter = (props) => (
             <h2>ADD COUNTER</h2>
             <button onClick={() => props.actions.addCounter()}>Add</button>
         </div>
+        <Popover2 />
     </div>
 )
